@@ -2,8 +2,6 @@
     --red: #ef412f;
 }
 
-/*paddig left dhe right  duhet te jet 115 ne cdo faqe*/
-
 * {
     margin: 0;
     padding: 0;
@@ -46,15 +44,6 @@ main {
     padding: 100px 115px 150px 115px;
     align-items: center;
     justify-content: center;
-}
-
-.hero_img {
-    max-width: 670px;
-    height: 425px;
-}
-
-.content-left {
-    width: 655px;
 }
 
 main h1 {
@@ -103,7 +92,6 @@ main .step_description {
     border: 3px solid #232323;
     border-radius: 5px;
   }*/
- 
 
 /*-- STEP 02 --*/
 .grid-container {
@@ -207,10 +195,10 @@ h3 {
     width: 55px;
 }
 
-.image-1 {
+/*.image-1 {
     max-width: 350px;
     height: auto;
-}
+}*/
 
 /*** STEP 04 ***/
 
@@ -334,10 +322,10 @@ h5 {
   padding: 0 70px 100px 0;
 }
 
-.image_4 {
+/*.image_4 {
     width: 385px;
     height: 515px;
-}
+}*/
 
 .feature {
     width: 820px;
@@ -384,10 +372,15 @@ h6 {
     justify-content: center;
     margin-top: 45px;
 }
+/*@media (max-width:700) {
+    .box_1 {
+        flex-direction: column;
+    }
+}*/
 
 .card_wrapper .box_1 {
-    width: 380px;
-    height: 420px;
+    /*width: 380px;
+    height: 420px;*/
     border: 3px solid #232323;
     border-radius: 10px;
     padding: 60px 30px 60px 30px;
@@ -537,87 +530,64 @@ h6 {
 }
 
 /********** STEP 10 
-
-.footer {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 100px 115px 100px 115px;
-    background-color: #c4c4c4;
-}
-
-.footer > * {
-    flex: 1 100%;
-}
-
-.footer__logo {
+/*
+  
+  .footer__logo {
     font-family: "Cardo";
     font-size: 63px;
     letter-spacing: -2px;
     line-height: 63px;
     font-weight: 700;
-}
-
-.nav__title {
+  }
+  
+  .nav__title {
     font-size: 25px;
     letter-spacing: -1px;
     line-height: 50px;
     font-weight: 900;
-    font-family: "Lato";
-}
-
-.footer .nav__ul {
+    font-family:"Lato";
+  }
+  
+  .footer .nav__ul {
     list-style: none;
     padding-left: 0;
-}
-.footer .nav__item {
+  }
+  
+  .footer .nav__item {
     line-height: 2.5em;
-}
-
-.footer .nav__link {
+  }
+  
+  .footer .nav__link{
     text-decoration: none;
-}
-
-.footer__nav {
+  }
+  
+  .footer__nav {
     display: flex;
-    flex-flow: row wrap;
-}
-
-.footer__nav > * {
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
     flex: 2 50%;
     margin-right: 40px;
-}
-
-.nav__ul .nav__link {
+  }
+  
+  .nav__ul .nav__link {
     font-size: 21px;
     letter-spacing: -1px;
     line-height: 50px;
-    color: #232323;
+    color:#232323;
     font-weight: 400;
     font-family: "Lato";
     text-align: left;
-}
-
-@media screen and (min-width: 25em){
-    .nav__ul .nav__link {
-        margin-left : auto;
-    }
-}
-
-@media screen and (min-width: 40.375em) {
-    .footer__nav > * {
-       flex:1;
-    }
-
-    .nav__item {
-        flex-grow: 1 0px;
-    }
-
-    .footer__addr {
-        flex: 1 0px;
-    }
-
-    .footer__nav {
-        flex: 2  0px;
-    }
-}
-**********/
+  }
+  
+  .copyright {
+    font-size: 21px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: 110px;
+  }
+  */
